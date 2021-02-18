@@ -24,7 +24,7 @@ public class commonMethods extends validations {
 		String deductAmount = prop.getProperty("deductAmount");
 		int deductAmount1 = Integer.parseInt(deductAmount);
 		validations.winningPrize -= deductAmount1;
-		System.out.println(validations.winningPrize);
+		
 
 
 	}
